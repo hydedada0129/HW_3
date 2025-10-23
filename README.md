@@ -44,11 +44,11 @@ dpkg -L tesseract-ocr | grep tessdata
     <dependency>
         <groupId>org.bytedeco</groupId>
 
+    </dependency>
 # java tesseract程式
 需要改：    
 tessert安裝路徑       
 被辨識的圖片路徑    
 
 
-    </dependency>
 
