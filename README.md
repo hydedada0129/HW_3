@@ -35,18 +35,18 @@ dpkg -L tesseract-ocr | grep tessdata
 - Maven pom.xml dependency
 影像辨識 Tess4J for OCR : 辨識model
 
-    <dependency>
-        <groupId>net.sourceforge.tess4j</groupId>
-        <artifactId>tess4j</artifactId>
-        <version>5.9.0</version>
-    </dependency>
+<dependency>
+    <groupId>net.sourceforge.tess4j</groupId>
+    <artifactId>tess4j</artifactId>
+    <version>5.9.0</version>
+</dependency>
 
-    JavaCV / OpenCV : 圖片處理套件
-    <dependency>
-        <groupId>org.bytedeco</groupId>
-        <artifactId>javacv-platform</artifactId>
-        <version>1.5.10</version>
-    </dependency>
+JavaCV / OpenCV : 圖片處理套件
+<dependency>
+    <groupId>org.bytedeco</groupId>
+    <artifactId>javacv-platform</artifactId>
+    <version>1.5.10</version>
+</dependency>
 
             
 # java tesseract程式
