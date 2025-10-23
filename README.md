@@ -37,7 +37,7 @@ dpkg -L tesseract-ocr | grep tessdata
 影像辨識 Tess4J for OCR : 辨識model    
 
 
-<dependency>            
+`<dependency>            
 <groupId>net.sourceforge.tess4j</groupId>            
 <artifactId>tess4j</artifactId>            
 <version>5.9.0</version>            
@@ -48,7 +48,7 @@ JavaCV / OpenCV : 圖片處理套件
 <groupId>org.bytedeco</groupId>            
 <artifactId>javacv-platform</artifactId>            
 <version>1.5.10</version>            
-</dependency>            
+</dependency>            `
             
 # java tesseract程式
 需要改：    
