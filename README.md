@@ -33,7 +33,7 @@ dpkg -L tesseract-ocr | grep tessdata
 /usr/bin下 or /usr/share下
 
 - Maven pom.xml dependency
- <!-- 影像辨識 Tess4J for OCR : 辨識model
+影像辨識 Tess4J for OCR : 辨識model
 
     <dependency>
         <groupId>net.sourceforge.tess4j</groupId>
@@ -47,7 +47,7 @@ dpkg -L tesseract-ocr | grep tessdata
         <artifactId>javacv-platform</artifactId>
         <version>1.5.10</version>
     </dependency>
--->
+
             
 # java tesseract程式
 需要改：    
